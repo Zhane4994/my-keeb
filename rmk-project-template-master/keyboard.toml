@@ -39,7 +39,7 @@ Space = { w = 6.25 }
 LCtrl = { w = 1.25 }
 LGui = { w = 1.25 }
 LAlt = { w = 1.25 }
-MO(1) = { w = 1.25 }
+"MO(1)" = { w = 1.25 }
 RAlt = { w = 1.25 }
 RCtrl = { w = 1.25 }
 [[input_device.encoder]]
@@ -104,7 +104,7 @@ Grave Kc1 Kc2 Kc3 Kc4 Kc5 Kc6 Kc7 Kc8 Kc9 Kc 0 Minus Equal Backspace
 Tab Q W E R T Y U I O P LeftBracket RightBracket Backslash
 CapsLock A S D F G H J K L Semicolon Quote Enter
 LShift Z X C V B N M Comma Dot Slash RShift Up
-LCtrl LGui LAlt Space MO(1) RAlt RCtrl Left Down Right
+LCtrl LGui LAlt Space "MO(1)" RAlt RCtrl Left Down Right
 """
 
 [[keymap.layer]] # layer 1
