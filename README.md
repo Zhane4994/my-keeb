@@ -101,5 +101,6 @@ Also It’s a triangle just so its a bit easier to take off but won’t come off
 Completed Case
 Part 3, Firmware
 Day 11 Hour 27-29
-I've spend almost 2 hours looking around the docs and figuring out how this works
+I've spend almost 2 hours looking around the docs and figuring out how this works. The docs were pretty confusing because i have no clue what they are talking about lol
 <img width="2560" height="1440" alt="Screenshot 2026-09-26 at 3 53 06 PM" src="https://github.com/user-attachments/assets/82f7da3f-f10e-4208-ab92-d2d5d67486ce" />
+And that is my keyboard complete. I have 2 days left so i'm going to submit asap!
