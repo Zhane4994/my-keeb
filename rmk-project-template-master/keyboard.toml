@@ -14,7 +14,20 @@ col_pins = ["PIN_21", "PIN_20", "PIN_19", "PIN_17", "PIN_16", "PIN_15", "PIN_14"
 bootmagic = [0, 0] #ESC key
 # RMK uses col2row as the default matrix diode direction, if you want to use a row2col matrix, add `row2col = true`
 # row2col = true
-
+[layout.shape]
+tab = { w = 1.5}
+CapsLock = { w = 1.75 }
+LShift = { w = 2.25 }
+Backspace = { w = 2 }
+Enter = { w = 2.25 }
+RShift = { w = 2.25 }
+Space = { w = 6.25 }
+LCtrl = { w = 1.25 }
+LGui = { w = 1.25 }
+LAlt = { w = 1.25 }
+MO(1) = { w = 1.25 }
+RAlt = { w = 1.25 }
+RCtrl = { w = 1.25 }
 [layout]
 rows = 6
 cols = 14
@@ -31,14 +44,16 @@ map = """
 
 # One more layer than is defined below: the keymap references layer 2
 # (LT(2, ...), TG(2)), which stays empty until the user fills it in.
-layers = 3
+layers = 2
 
 [[keymap.layer]] # layer 0
 keys = """
-A       B           C
-Kc1     Kc2         Kc3
-LCtrl   MO(1)       LShift
-OSL(1)  LT(2, Kc9)  LM(1, LShift | LGui)
+Escape F1 F2 F3 F4 F5 F6 F7 F8 F9 F10 F11 F12
+Grave Kc1 Kc2 Kc3 Kc4 Kc5 Kc6 Kc7 Kc8 Kc9 Kc 0 Minus Equal Backspace
+Tab Q W E R T Y U I O P LeftBracket RightBracket Backslash
+CapsLock A S D F G H J K L Semicolon Quote Enter
+LShift Z X C V B N M Comma Dot Slash RShift Up
+LCtrl LGui LAlt Space MO(1) RAlt RCtrl Left Down Right
 """
 
 [[keymap.layer]] # layer 1
