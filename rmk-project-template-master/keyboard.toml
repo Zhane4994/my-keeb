@@ -7,6 +7,20 @@ product_id = 0x4643
 manufacturer = "Eric Zhang"
 chip = "rp2040"
 usb_enable = true
+[host]
+vial_enabled = true
+rynk_enabled = false
+[display]
+driver = "ssd1306"
+size = "128x32"
+rotation = 90 
+renderer = "OledRenderer"
+min_renderer_interval = 10
+[display.protocol.i2c]
+instance = "I2C1"
+sda = "PIN_26"
+scl = "PIN_27"
+address = "0x3C"
 [matrix]
 # Row and col pins are mandatory
 row_pins = ["PIN_29", "PIN_27", "PIN_26", "PIN_25", "PIN_24", "PIN_22"]
@@ -14,7 +28,7 @@ col_pins = ["PIN_21", "PIN_20", "PIN_19", "PIN_17", "PIN_16", "PIN_15", "PIN_14"
 bootmagic = [0, 0] #ESC key
 # RMK uses col2row as the default matrix diode direction, if you want to use a row2col matrix, add `row2col = true`
 # row2col = true
-[layout.shape]
+[layout.shapes]
 tab = { w = 1.5}
 CapsLock = { w = 1.75 }
 LShift = { w = 2.25 }
@@ -28,6 +42,43 @@ LAlt = { w = 1.25 }
 MO(1) = { w = 1.25 }
 RAlt = { w = 1.25 }
 RCtrl = { w = 1.25 }
+[[input_device.encoder]]
+pin_a = "PIN_34"
+pin_b = "PIN_32"
+
+# Whether to use the MCU's internal pull-up resistor, default to false
+internal_pullup = false
+
+# Working mode of the encoder
+# Available modes:
+# - default: resolution = 1
+# - e8h7: phase table tuned for E8H7 encoders
+# - resolution: custom resolution, requires specifying the resolution parameter
+phase = "resolution"
+
+# `resolution` represents the number of steps generated per detent.
+#
+# When your encoder datasheet lists:
+#   - detent = number of mechanical detents per full rotation
+#   - pulse  = number of full quadrature cycles (A/B cycles) per full rotation
+#
+# Then the relationship is:
+#   resolution = (pulse × 4) / detent
+# because each full quadrature cycle (pulse) produces 4 edge transitions.
+#
+# For example — in the ALPS EC11E series (https://tech.alpsalpine.com/cms.media/product_catalog_ec_01_ec11e_en_611f078659.pdf):
+#   detent = 30, pulse = 15 → resolution = (15 × 4) / 30 = 2
+resolution = 2
+
+# Or you can specify detent and pulse to calculate resolution automatically
+# resolution = { detent = 30, pulse = 15 }
+
+# Whether the direction of the rotary encoder is reversed.
+reverse = false
+
+# Debounce interval in milliseconds. Suppresses spurious events from
+# mechanical contact bounce. Defaults to 0 (disabled).
+debounce_ms = 5
 [layout]
 rows = 6
 cols = 14
@@ -48,7 +99,7 @@ layers = 2
 
 [[keymap.layer]] # layer 0
 keys = """
-Escape F1 F2 F3 F4 F5 F6 F7 F8 F9 F10 F11 F12
+Escape BrightnessDown BrightnessUp MissionControl Spotlight MyComputer SystemPower MediaPrevTrack MediaPlayPause MediaNextTrack AudioMute AudioVolDown AudioVolUp encoders = ["AudioVolUp", "AudioVolDown]
 Grave Kc1 Kc2 Kc3 Kc4 Kc5 Kc6 Kc7 Kc8 Kc9 Kc 0 Minus Equal Backspace
 Tab Q W E R T Y U I O P LeftBracket RightBracket Backslash
 CapsLock A S D F G H J K L Semicolon Quote Enter
@@ -58,8 +109,14 @@ LCtrl LGui LAlt Space MO(1) RAlt RCtrl Left Down Right
 
 [[keymap.layer]] # layer 1
 keys = """
-_  TT(1)  TG(2)
-_  _      _
-_  _      _
-_  _      _
+_ F1 F2 F3 F4 F5 F6 F7 F8 F9 F10 F11 F12 encoders = ["_", "_"]
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _
 """
+[light]
+capslock = { pin = "PIN_29", low_active = true }
+scrolllock = { pin = "PIN_29", low_active = true }
+numslock= { pin = "PIN_29", low_active = true }
