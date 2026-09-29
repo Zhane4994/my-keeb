@@ -11,7 +11,7 @@
 "SW28,SW41","2","SW_Push","","PCM_marbastlib-mx:SW_MX_HS_KS-2P02B01-01_1.5u","","https://www.gateron.com/products/gateron-ks-3-milky-pro-switch-set?VariantsId=10404",""
 "SW42","1","SW_Push","","PCM_marbastlib-mx:SW_MX_HS_KS-2P02B01-01_1.75u","","https://www.gateron.com/products/gateron-ks-3-milky-pro-switch-set?VariantsId=10404",""
 "SW68,SW69,SW70,SW72,SW73","5","SW_Push","","PCM_marbastlib-mx:SW_MX_HS_KS-2P02B01-01_1.25u","","https://www.gateron.com/products/gateron-ks-3-milky-pro-switch-set?VariantsId=10404",""
-"SW78","1","RotaryEncoder_Switch","","Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_MountingHoles","","https://tech.alpsalpine.com/e/products/detail/EC11E15244G1/","",""
+"SW78","1","RotaryEncoder_Switch","","Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_MountingHoles","","https://tech.alpsalpine.com/e/products/detail/EC11E15244G1/",""
 "D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,D13,D14,D15,D16,D17,D18,D19,D20,D21,D22,D23,D24,D25,D26,D27,D28,D29,D30,D31,D32,D33,D34,D35,D36,D37,D38,D39,D40,D41,D42,D43,D44,D45,D46,D47,D48,D49,D50,D51,D52,D53,D54,D55,D56,D57,D58,D59,D60,D61,D62,D63,D64,D65,D66,D67,D68,D69,D70,D71,D72,D73,D74,D75,D76,D77","77","1N4148","","Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal","https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf",""
 "A1","1","RaspberryPi_Pico","","Module:RaspberryPi_Pico_Common_THT","https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf","",""
 "U1","1","ER_OLEDM0.91_1x-I2C","","Display:ER_OLEDM0.91_1x-I2C","https://www.buydisplay.com/download/manual/ER-OLEDM0.91-1_Datasheet.pdf","",""
