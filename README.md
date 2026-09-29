@@ -1,3 +1,7 @@
+I designed a mechanical keyboard from scratch with kicad pcb's and onshape cases. I also learned how to use the RMK firmware to create a functional keyboard. I did this project because I used to be into keyboards and I thought it would be super cool to not only learn more about how they work but how to design one.
+
+
+
 Part I, PCB and Schematic design
 Day 1 Hour 1
 I’m currently working on this at lunch. I have no idea what I’m doing lmao just following the guide. I have a slight idea of what I want to make. I am going to make it a 75% keyboard with a lcd screen and a knob. I just found out it’s supposedly due in a month golly. LOCK IN. This is my inspiration
