@@ -1,4 +1,4 @@
-"Reference","Qty","Value","DNP","Footprint","Datasheet", "Wheretoget", "CAD". "USD"
+"Reference","Qty","Value","DNP","Footprint","Datasheet", "Wheretoget", "CAD", "USD"
 "C1,C3,C4,C5,C6,C7,C8,C9,C10,C11","10","100 nF","","Capacitor_THT:C_Radial_D5.0mm_H5.0mm_P2.00mm","","","",""
 "C2","1","470 uF","","Capacitor_THT:C_Radial_D5.0mm_H5.0mm_P2.00mm","","","",""
 "R1","1","330","","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","","","",""
