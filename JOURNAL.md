@@ -11,7 +11,7 @@ I designed a mechanical keyboard from scratch with kicad pcb's and onshape cases
 
 Part I, PCB and Schematic design
 
-Day 1 Hour 1
+Day 1 Hour 1 Sep-09-10
 
 I’m currently working on this at lunch. I have no idea what I’m doing lmao just following the guide. I have a slight idea of what I want to make. I am going to make it a 75% keyboard with a lcd screen and a knob. I just found out it’s supposedly due in a month golly. LOCK IN. This is my inspiration
 <img width="1000" height="1000" alt="nmpc-yunzii-AL80-silver-mechanical-keyboard-2059385894" src="https://github.com/user-attachments/assets/4b981d7c-b0d8-4a5f-b995-72f44b38bd73" />
