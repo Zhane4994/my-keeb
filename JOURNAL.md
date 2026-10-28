@@ -1,3 +1,10 @@
+---
+title: "My Keeboard"
+github: "https://github.com/Zhane4994/my-keeb"
+description: "A fully mechanical keyboard, created with the keeb docs!"
+created_at: "(2026-09-10)"
+---
+
 I designed a mechanical keyboard from scratch with kicad pcb's and onshape cases. I also learned how to use the RMK firmware to create a functional keyboard. I did this project because I used to be into keyboards and I thought it would be super cool to not only learn more about how they work but how to design one.
 
 
