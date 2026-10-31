@@ -13,7 +13,7 @@ Its a really weird layout. I decided that a delete key isn't really necessary bu
 
 *Every part of this was made by me and some clarification from AI*
 
-#Features:
+Features:
 - 
  - The Nice!View display
  - EC11E Rotary Encoder
