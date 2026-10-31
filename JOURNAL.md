@@ -3,7 +3,7 @@ title: "My Keeboard"
 github: "https://github.com/Zhane4994/my-keeb"
 description: "A fully mechanical keyboard, created with the keeb docs!"
 created_at: "(2026-09-10)"
-total_time: "31h 36m"
+total_time: "39h 6m"
 ---
 
 I designed a mechanical keyboard from scratch with kicad pcb's and onshape cases. I also learned how to use the RMK firmware to create a functional keyboard. I did this project because I used to be into keyboards and I thought it would be super cool to not only learn more about how they work but how to design one.
@@ -255,3 +255,42 @@ I spent this time ordering up the LEDs to make it easier for me later to put the
 ![](https://fabricate.hackclub-assets.com/af834482f20ea841e881f838fe45e85522396b8e4c88ffd28cbc1391dfab3a59/image-png/Screenshot%202026-10-29%20at%2012.38.10%E2%80%AFAM.png)
 
 **Total time spent: 1h 30m**
+
+# October 29, 2026: Begin the routing
+<!-- fabricate:entry 1630 -->
+
+This session, I placed in the LEDs and switched up all of the pinout's for the devboard to make it easier to route. I also forgot to place all the SMD Diodes on the back layer, but luckily, I didn't begin to route them yet.
+
+![](https://fabricate.hackclub-assets.com/343bfd06304450313db1560033d2495dec5688ec5adeb793c43049e244a48411/image-png/Screenshot%202026-10-29%20at%2011.08.20%E2%80%AFPM.png)
+
+**Total time spent: 2h**
+
+# October 30, 2026: Finished up PCB!!
+<!-- fabricate:entry 1691 -->
+
+Wow!!! super productive session today. I hope I can finish up my 3d case before today because I kinda want that devboard :/ TBH, I'm probably not going to finish on time but I will try my best
+
+
+
+
+![](https://fabricate.hackclub-assets.com/6d26260d83eb904bb513fb973c930c1c015bbab4dfe516c4bda5a85f05aa69d7/image-png/Screenshot%202026-10-30%20at%2010.03.25%E2%80%AFPM.png)
+
+**Total time spent: 3h**
+
+# October 30, 2026 (entry 2): Imported the PCB onto onshape!
+<!-- fabricate:entry 1692 -->
+
+This took a while, mostly because the devkit board had so many pieces to it, that it took me a while to delete them all as I forgot to add the rotary encode model on the pcb. And then I moved all the parts for the esp board to its own folder.
+
+![](https://fabricate.hackclub-assets.com/2dcaa4665d0018ab2782e197c5c7600b43464c0d6cbacd47e198bfae87e5e24b/image-png/Screenshot%202026-10-30%20at%2011.11.58%E2%80%AFPM.png)
+
+**Total time spent: 30m**
+
+# October 31, 2026: Finished the case!
+<!-- fabricate:entry 1756 -->
+
+I began working on this last night, so its technically 2 sessions. For this time, I created a 3d CAD model for my keyboard that I verified fits in my printer. Also I decided to only make 1 plate layer rather than 2
+
+![](https://fabricate.hackclub-assets.com/20094e58665ea21cbf0ed2a85757a7eb975f47e0d9c196128aa06c75ef9ffc9e/image-png/Screenshot%202026-10-31%20at%205.59.25%E2%80%AFPM.png)
+
+**Total time spent: 2h**
