@@ -7,7 +7,8 @@ I also created a case on onshape, you can check it out [here](https://cad.onshap
 
 
 This is a mechanical keyboard that I built from scratch. 
-![Uploading Screenshot 2026-10-31 at 6.18.35 PM.png<img width="1470" height="956" alt="Screenshot 2026-10-31 at 6 18 35 PM (2)" src="https://github.com/user-attachments/assets/57a291b2-dd8b-40b2-b0c8-59b1b1702951" />
+<img width="1695" height="665" alt="Screenshot 2026-10-31 at 6 24 53 PM" src="https://github.com/user-attachments/assets/2e7198b8-db14-4b73-aaf3-d7d4a852db31" />
+/assets/57a291b2-dd8b-40b2-b0c8-59b1b1702951" />
 …]()
 
 Its a really weird layout. I decided that a delete key isn't really necessary but I still want the function keys. Its similar and close to a 75 percent, so I supposes its like 70%
