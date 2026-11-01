@@ -21,3 +21,7 @@ Features:
  - EC11E Rotary Encoder
  - 77 Switches
  - 3D Cad case
+
+# Challenges
+
+^1 hi
