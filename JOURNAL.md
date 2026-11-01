@@ -167,6 +167,7 @@ Pretty much finished my wiring. I took a forced break from my dad yesterday so l
 <!-- fabricate:entry 1458 -->
 
 I’ve finished my PCB and tweaked it halfway into the case design because I realized the resistor placement is not optimal(look up above. I wanted to do a gasket mount by making the inside of the case be under the pcb by 3 mm but a resistor and capacitor would be in the way and I think it would just be better to move them)
+<img width="2560" height="1440" alt="Screenshot 2026-09-20 at 6 13 34 PM" src="https://fabricate.hackclub-assets.com/f031919a9900f8190de49c525e8ce867c6ea645521dcd63e6107bf5b93b222ea/image-png/d90422fb-86a4-4df5-a1b0-a8f0fa53a193.png" />
 I also began my case design so here’s part II
 Part II, Case design
 
