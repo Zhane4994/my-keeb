@@ -23,5 +23,4 @@ Features:
  - 3D Cad case
 
 # Challenges
-
-[^1] hi
+ -
