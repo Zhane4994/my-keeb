@@ -65,6 +65,7 @@ I’ve just spent one hour on just wiring alone. This is super time consuming
 <!-- fabricate:entry 1447 -->
 
 I’ve spent a while just working on moving stuff around according to the DRC as I had some issues. I also added a Rotary encoder and a OLED screen. I forgot to screenshot yesterday so this is my finished PCB now. I had to rewire a bunch of stuff and the PCB is packed and there isn’t much room.
+![](https://fabricate.hackclub-assets.com/80e7fdfa2ba67a9d7c18e01ebf25a785e3492ffac461c01f42e985ba38251479/image-png/image.png)
 
 **Total time spent: 2h**
 
@@ -166,7 +167,6 @@ Pretty much finished my wiring. I took a forced break from my dad yesterday so l
 <!-- fabricate:entry 1458 -->
 
 I’ve finished my PCB and tweaked it halfway into the case design because I realized the resistor placement is not optimal(look up above. I wanted to do a gasket mount by making the inside of the case be under the pcb by 3 mm but a resistor and capacitor would be in the way and I think it would just be better to move them)
-<img width="2560" height="1440" alt="Screenshot 2026-09-20 at 6 13 34 PM" src="https://fabricate.hackclub-assets.com/f031919a9900f8190de49c525e8ce867c6ea645521dcd63e6107bf5b93b222ea/image-png/d90422fb-86a4-4df5-a1b0-a8f0fa53a193.png" />
 I also began my case design so here’s part II
 Part II, Case design
 
