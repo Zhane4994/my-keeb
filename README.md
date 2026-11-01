@@ -23,4 +23,9 @@ Features:
  - 3D Cad case
 
 # Challenges
- -
+ - Remaking the PCB like 3 times.
+ - Keeping prices low
+ - Finishing before October (pls gimme free devboard)
+ - Creating a custom footprint
+ - Wiring the pcb
+
